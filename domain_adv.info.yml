@@ -1,0 +1,12 @@
+name: Domain Access Advanced
+description: 'Changes Domain access modules to use db_rewrite_query() instead of node access. This will allow better integration with other node access modules.'
+type: module
+core_version_requirement: ^8.8 || ^9
+package: Domain
+dependencies:
+  - domain:domain
+
+# Information added by Drupal.org packaging script on 2019-07-09
+version: '8.x-1.0-beta1'
+project: 'domain_adv'
+datestamp: 1562673187
