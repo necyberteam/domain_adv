@@ -8,6 +8,9 @@
 
 use Drupal\Core\Database\Query\AlterableInterface;
 
+define('DOMAIN_ACCESS_FIELD', 'field_domain_access');
+define('DOMAIN_ACCESS_ALL_FIELD', 'field_domain_all_affiliates');
+
 /**
  * Implements hook_module_implements_alter().
  */
