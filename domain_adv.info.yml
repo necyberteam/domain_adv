@@ -1,7 +1,7 @@
 name: Domain Access Advanced
 description: 'Changes Domain access modules to use db_rewrite_query() instead of node access. This will allow better integration with other node access modules.'
 type: module
-core_version_requirement: ^8.8 || ^9
+core_version_requirement: ^8.8 || ^9 || ^10
 package: Domain
 dependencies:
   - domain:domain
